@@ -1,0 +1,20 @@
+{
+  "name": "flexsearch-jp-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/kobakazu0429/flexsearch-jp-example.git",
+  "author": "kobakakzu0429 <kobakazu10@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .ts,.tsx ./src --fix"
+  },
+  "dependencies": {
+    "flexsearch": "^0.6.32"
+  },
+  "devDependencies": {
+    "@kobakazu0429/eslint-config-typescript": "^2.0.1",
+    "@types/node": "^14.14.10",
+    "eslint": "^7.14.0",
+    "typescript": "^4.1.2"
+  }
+}
